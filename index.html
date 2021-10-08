@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    header {}
+
+    body {
+        background-image: url(../img/abs-1850926_1920.jpg);
+        padding: 0px;
+        margin: 0px;
+        height: 14px;
+        width: auto;
+    }
+
+    .left {
+
+
+        position: absolute;
+        left: 34px;
+        top: 2opx;
+        font-size: 20px;
+        /* margin: 5px; */
+        /* padding: 23px; */
+        /* background-color: rgb(44, 39, 39); */
+        color: #03a9f4;
+    }
+
+    
+
+    .left img {
+        width: 120px;
+    }
+
+    .mid {
+        display: block;
+        width: 400px;
+        margin: 14px auto;
+        background-color: rgb(27, 25, 25);
+
+        margin-top: 20px;
+
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        bottom: 710px;
+        margin: 5px;
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 5px;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: #ff5722;
+
+    }
+
+    .navbar li a:hover,
+    .navabr li a.Active {
+        text-decoration: underline;
+        color: blue
+    }
+
+    .btn {
+        background-color: rgb(223, 53, 53);
+        color: white;
+        border: 2px solid yellow;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .container {
+
+      
+    border-radius: 20px;
+    margin: 73px 28px;
+    padding: 1px 2px;
+    width: 470px;
+    background-color: rgb(29 27 27);
+    color: #eadbdb;
+    font-size: 12px;
+    }
+
+    .form-group input {
+        text-align: center;
+        margin: auto;
+        padding: 6px;
+        width: 335px;
+        display: block;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+        display: block;
+        width: 32px auto;
+    }
+
+    .container button {
+        text-align: center;
+        display: block;
+        width: 222px;
+        margin: 14px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for Logo-->
+        <div class="left">
+            <img src="../img/gym.jpg" alt="">
+            <div>Chandan Fitness</div>
+        </div>
+        <!--Mid box for navabr-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="Active">Home</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contect Us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <!--right box for bottom-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym in Gorkapur</h1>
+        <Form action="noaction.php">
+            <div class="form-group">
+
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder=" Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder=" Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Contect Number">
+            </div>
+            <div class="form-group">
+                <input type="text" Name="" placeholder="Enter your Email">
+                <div class="form-group">
+                    <input type="text" Name="" placeholder="Enter your Age">
+                </div>
+            </div>
+            <button class="btn">Submit</button>
+        </Form>
+    </div>
+
+</body>
+
+</html>
